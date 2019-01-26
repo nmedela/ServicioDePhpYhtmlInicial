@@ -1,0 +1,21 @@
+
+<?php
+
+if ($_POST[encenderprincipal]){
+ echo exec("sudo python2.7 /usr/lib/python2.7/dist-packages/RPi/blink.py");
+ }
+if ($_POST[boton2]){  
+ echo exec("sudo python2.7 /usr/lib/python2.7/dist-packages/RPi/");
+ }
+
+
+
+
+header('Location: ' .);
+
+
+?>
+
+
+
+

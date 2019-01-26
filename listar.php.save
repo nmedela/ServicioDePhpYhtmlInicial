@@ -1,0 +1,27 @@
+<?php
+	if  ($_GET[url]<>""){
+		$directorio = opendir($_GET[url]); //ruta actual
+	}else{
+		$directorio = opendir(".");
+	}
+
+//if($extension == "txt"){
+while ($archivo = readdir($directorio)) //obtenemos un archivo y luego otro sucesivamente
+{
+    if (is_file($archivo))//verificamos si es o no un directorio
+    {
+        echo "[".$archivo . "]<br />"; //de ser un directorio lo envolvemos entre corchetes
+    }
+    else
+    {
+	$trozos = explode(".", $archivo);
+	if($trozos == ""){
+	$extension = end($trozos
+			echo $archivo . "<br />";
+		}
+	}
+ }
+}
+
+
+?>

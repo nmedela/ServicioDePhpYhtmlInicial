@@ -1,0 +1,211 @@
+body {
+  background-color:#f0f0f0;
+	position:static;
+	margin:auto;
+  
+}
+#volver{
+width:100px;
+height:30px;
+text-size: 5px;
+position:absolute;
+bottom:5px;
+left:5px;
+}
+
+h1 {
+  position: absolute;
+  top: 10%; 
+  left: 50%;
+ transform: translate(-50%, -50%);	
+  color:#0000cc;
+  font-family:times new roman;
+  font-size:30px;
+  text-align:center;
+  text-decoration:underline;
+ text-shadow: #666 2px 2px 2px;
+ margin-top: 10px
+}
+#botonesaudio{
+display:block;
+position:absolute;
+top:20%;
+left:50%;
+transform:translate(-50%,40%);
+
+}
+#botonesindex{ 
+display: block;
+position: absolute;
+  top: 10%; 
+  left: 50%;
+ transform: translate(-50%, 40%);
+
+}
+
+button {
+width:200px;
+height:50px;
+margin-bottom:10px;
+
+font-family:times new roman;
+  font-size:18px;
+  text-align:center;
+  text-decoration:none;
+ }
+
+#form1{
+
+}
+
+#primer{
+
+width:400px;
+position:absolute;
+top:100px;
+left:50%;
+text-align:center;
+margin-top:5px;
+transform: translate(-50%, 40%);
+text-decoration:underline;
+
+}
+#segundo{
+position:absolute;
+top:160px;
+left:50%;
+text-align:center;
+margin-top:5px;
+transform: translate(-50%, 40%);
+text-decoration:underline;
+
+}
+
+#tercer{
+
+ font-size:14px;
+position:absolute;
+top:185px;
+right:55%;
+text-align:center;
+margin-top:5px;
+transform: translate(-50%, 40%);
+ text-decoration:underline;
+}
+#cuarto{
+ font-size:14px;
+position:absolute;
+top:185px;
+left:75%;
+text-align:center;
+margin-top:5px;
+transform: translate(-50%, 40%);
+ text-decoration:underline;
+}
+.encenderprincipal{
+display: block;
+width:100px;
+position: absolute;
+  top: 145px; 
+  right: 50%;
+
+}
+.apagarprincipal{
+display: block;
+width:100px;
+position: absolute;
+  top: 145px; 
+  left: 55%;
+
+}
+.encenderizquierda{
+display: block;
+width:50px;
+position: absolute;
+  top: 230px; 
+  right: 75%;
+
+}
+.apagarizquierda{
+display: block;
+width:50px;
+position: absolute;
+  top: 230px; 
+  right: 55%;
+
+}
+.encenderderecha{
+display: block;
+width:50px;
+position: absolute;
+  top: 230px; 
+  left: 75%;
+
+}
+.apagarderecha{
+display: block;
+width:50px;
+position: absolute;
+  top: 230px; 
+  left: 55%;
+
+}
+
+.atenuarambas{
+display: block;
+width:100px;
+position: absolute;
+  top: 275px; 
+  left: 50%;
+transform: translate(-50%, -50%); 
+}
+#escenas{
+position:absolute;
+top:300px;
+left:55%;
+text-align:center;
+margin-top:5px;
+transform: translate(-75%, 50%);
+text-decoration:underline;
+}
+.encendertodas{
+display: block;
+width:100px;
+position: absolute;
+  top: 380px; 
+  right: 65%;
+}
+.apagartodas{
+display: block;
+width:100px;
+position: absolute;
+  top: 380px; 
+  left: 65%;
+}
+
+.escena1{
+display: block;
+margin-top:5px;
+position: absolute;
+  top: 350px; 
+  left: 50%;
+transform: translate(-50%, 40%);
+}
+.escena2{
+display: block;
+margin-top:5px;
+position: absolute;
+  top: 375px; 
+  left: 50%;
+transform: translate(-50%, 40%);
+}
+.escena3{
+display: block;
+margin-top:5px;
+position: absolute;
+  top: 400px; 
+  left: 50%;
+transform: translate(-50%, 40%);
+}
+
+

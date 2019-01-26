@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>Control Remoto</title>
+	
+		<link href="mobile.css" rel="Stylesheet" type="text/css" media="screen " />
+		<meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1" />	
+	</head>
+	
+	
+	<body>
+<h1>CONTROL DE LUCES</h1></br>
+
+		<div id="form1">
+				
+		<form action="datos.php" method="post">
+		
+	
+ 
+		<label id="primer">Luz principal</label></br>
+		<input class="encenderprincipal" type="submit" name="encenderprincipal" value="Encender">
+		<input class="apagarprincipal" type="submit" name="apagarprincipal" value="Apagar"></br>
+		
+			
+               
+
+			<label id="segundo">Luces laterales</label></br>
+			<label id="tercer">Izquierda</label><label id="cuarto">Derecha</label></br>
+			<input class="encenderizquierda" type="submit" name="encenderizquierda" value="Si">
+			<input class="apagarizquierda" type="submit" name="apagarizquierda" value="No">
+			<input class="encenderderecha" type="submit" name="encenderderecha" value="si">
+			<input class="apagarderecha" type="submit" name="apagarderecha" value="No"></br>
+			<input class="atenuarambas" type="submit" name="atenuarambas" value="Atenuar"></br>
+			<label id="escenas">Escenas</label></br>
+			<input class="encendertodas" type="submit" name="encendertodas" value="Encender"></br>
+			<input class="apagartodas" type="submit" name="apagartodas" value="Apagar"></br>
+		
+			<input class="escena1" type="submit" name="escena1" value="1"></br>
+			<input class="escena2" type="submit" name="escena2" value="2"></br>
+			<input class="escena3" type="submit" name="escena3" value="3"></br>		
+			<input type="hidden" name="pagina" value="luces.html" />	
+	</form>		
+</div>
+<a href="index.html" id="volver">Vovler</a>		
+	</body>
+</html>

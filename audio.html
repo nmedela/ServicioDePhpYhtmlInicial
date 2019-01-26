@@ -1,0 +1,29 @@
+<html>
+
+<head>
+<link href="estilomobile.css"
+      rel="stylesheet" type="text/css" media="screen">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<body>
+	<div id="contenedor">
+		<div id="encabezado"><h1>Control Audio</h1></div>
+		<div class="consola">
+		<form name="form1" action="datos.php" method="post">
+		<label id="audio">Audio</label></br><input type="submit" name="encenderaudio" value="Encender" id="btnencender"/><input type="submit" name="apagaraudio" value="Apagar"/></br>
+		<label id="lblvolumen1">Volumen x1</label><label id="lblvolumen2">Volumen x2</label></br><input id="btnvmas" type="submit" name="volmas1" value="+"/><input type="submit" name="volmas2" value="++"/></br><input type="submit" id="btnvmenos" name="volmenos1" value="-"/><input type="submit" name="volmenos2" value="--"/></br><input type="submit" name="mute" id="btnmute" value="Mute"/></br>
+		
+		<label id="lblgraves">Graves</label><label id="lblagudos">Agudos</label></br>
+		<input id="btnbmas" type="submit" name="bassmas" value="+"/><input type="submit" name="treblemas" id="btntmas" value="+"/></br>
+		<input type="submit" name="bassmenos" id="btnbmenos" value="-"/><input type="submit" name="treblemenos" id="btntmenos" value="-"/></br>
+		
+		<input id="btnrestablecer" type="submit" name="reset" value="Restablecer parametros"/></br>
+		<input type="hidden" name="pagina" value="audio.html"
+		</form>
+		</div>
+	</div>
+
+</body>
+
+</html>
